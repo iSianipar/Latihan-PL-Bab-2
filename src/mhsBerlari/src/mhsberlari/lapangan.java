@@ -15,6 +15,13 @@ public class lapangan {
     private int waktuPutaran;
     private int jumlahKeliling;
     
+    public void jumlahSemua(int lebarLapangan, int panjangLapangan, int waktuPutaran,int jumlahKeliling){
+        this.lebarLapangan = lebarLapangan;
+        this.panjangLapangan = panjangLapangan;
+        this.waktuPutaran = waktuPutaran;
+        this.jumlahKeliling = jumlahKeliling;
+    }
+    
     void setlebarLapangan(int lebarLapangan){
         lebarLapangan = input.nextInt();
     }
@@ -37,18 +44,18 @@ public class lapangan {
     }
     
     int getwaktuPutaran(){
-        return waktuPutaran;
+        return waktuPutaran*60;
     }
     
     void setjumlahKeliling(int jumlahKeliling){
         jumlahKeliling = input.nextInt();
     }
     
-    int getlintasanDilalui(){
-        return panjangLapangan*lebarLapangan*jumlahKeliling;
+    double getlintasanDilalui(){
+        return 2*(panjangLapangan+lebarLapangan)*jumlahKeliling;
     }
     
-    int getratarataWaktu(){
+    double getratarataWaktu(){
         return getlintasanDilalui()/waktuPutaran;
     }
 }
