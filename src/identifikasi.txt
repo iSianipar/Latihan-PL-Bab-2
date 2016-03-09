@@ -1,0 +1,16 @@
+class : - mahasiswa
+	- lapangan
+
+object : - Anandhi
+	 - Aan
+	 - Tristiaratri
+
+method : -  Mencari rata - rata waktu menempuh 1 putaran =jumlah putaran yang ditempuh(meter) / waktu(detik)
+	 -  Mencari jumlah putaran yang ditempuh =  2*(panjang+lebar)*jumlah putaran
+
+attribut : - NIM
+	   - Nama
+	   - Panjang lapangan
+	   - Lebar lapangan
+	   - Waktu yang ditempuh
+	   - Putaran yang dilakukan

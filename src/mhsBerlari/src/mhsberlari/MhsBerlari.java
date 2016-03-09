@@ -24,14 +24,14 @@ public class MhsBerlari {
        lapangan inputan[] = new lapangan[jmlMhs];
        for(int i = 0; i<inputan.length; i++){
            inputan[i] = new lapangan();
-           System.out.print("Masukkan NIM : ");
+           System.out.print("Masukkan NIM   : ");
            nim = input.next();
-           System.out.print("Masukkan Nama : ");
+           System.out.print("Masukkan Nama  : ");
            nama= input.next();
            lapangan isian = new lapangan();
-           System.out.print("Masukkan jumlah putaran : ");
+           System.out.print("Masukkan jumlah putaran    : ");
            jumlahKeliling = input.nextInt();
-           System.out.print("Masukkan Waktu : ");
+           System.out.print("Masukkan Waktu             : ");
            waktuPutaran = input.nextInt();
            System.out.println("");
            inputan[i].jumlahSemua(lebarLapangan, panjangLapangan, waktuPutaran*60, jumlahKeliling);
@@ -40,6 +40,8 @@ public class MhsBerlari {
            System.out.println("");
            
        }
+       
+        
        
        
        
