@@ -5,10 +5,17 @@
  */
 package mhsberlari;
 
+import java.util.Scanner;
+
 public class MhsBerlari {
 
     public static void main(String[] args) {
+       Scanner input = new Scanner(System.in);
+       int jmlMhs,panjangLapangan,lebarLapangan;
+       String nama;
        
+       lapangan inputan = new lapangan();
+        System.out.println(""+inputan.getlebarLapangan());
     }
     
 }
