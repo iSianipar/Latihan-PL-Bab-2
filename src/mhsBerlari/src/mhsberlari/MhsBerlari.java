@@ -22,6 +22,7 @@ public class MhsBerlari {
        lebarLapangan = input.nextInt();
                System.out.println("");
        lapangan inputan[] = new lapangan[jmlMhs];
+       
        for(int i = 0; i<inputan.length; i++){
            inputan[i] = new lapangan();
            System.out.print("Masukkan NIM   : ");
@@ -39,8 +40,16 @@ public class MhsBerlari {
            System.out.println("Rata - rata waktu            : "+inputan[i].getratarataWaktu());
            System.out.println("");
            
+           double terbesar = inputan[i].getratarataWaktu();
+ 
+           if(inputan[i].getratarataWaktu()>terbesar){
+               terbesar = inputan[i].getratarataWaktu();
+           }
+           System.out.println("pemenangnya adalah "+terbesar);
        }
-       
+        
+            
+        }
         
        
        
@@ -49,4 +58,3 @@ public class MhsBerlari {
        
     }
     
-}
