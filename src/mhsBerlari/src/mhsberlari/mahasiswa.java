@@ -11,11 +11,13 @@ package mhsberlari;
  */
 public class mahasiswa {
     private String nama;
+    private String nim;
     private int jmlMhs;
     
     
     public void inputan(String nama, int jmlMhs){
         this.nama = nama;
+        this.nim = nim;
         this.jmlMhs = jmlMhs;
       
     }
